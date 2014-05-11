@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Chris Castiglione, and the One Month team">
+    <title>What I Learned: One Month HTML</title>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fa fa-code"></i> What I Learned: One Month HTML</a>
+
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="mailto:jodie@mindfulcoder.co.uk" class="navbar-link"><i class="fa fa-envelope-o"></i> Email Me</a></li> 
+          <li><a href="http://twitter.com/mindfulcoder" class="navbar-link"><i class="fa fa-twitter"></i> Twitter</a></li>
+        </ul>
+
+      </div> <!-- .container -->
+    </div><!-- .navbar -->
+  
+    <!-- carousel -->
+    <div class="banner">
+      <div id="page-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#page-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#page-carousel" data-slide-to="1"></li>
+       <li data-target="#page-carousel" data-slide-to="2"></li>
+     </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/beach.jpg" alt="beach">
+          <div class="carousel-caption">
+           <h2>HTML is my Beach House</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/birds.jpg" alt="beach">
+          <div class="carousel-caption">
+           <h2>CSS is where I meet my Friends</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/tea.jpg" alt="beach">
+          <div class="carousel-caption">
+            <h2>JavaScript is my Hot Hot Tea</h2>
+          </div>
+        </div>
+      </div><!-- .carousel-inner -->
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#page-carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#page-carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div><!-- .carousel -->
+  </div><!-- .banner -->
+  
+  <div class="container marketing">
+ 
+    <!-- Start the featurettes -->
+    <hr class="divider">
+  
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">HTML is <span class="text-muted">100% Free</span></h2>
+        
+        <p class="lead">No gimmicks. No bull. HTML is brought to you for free by the W3C. It can be used from the comfort of your own home. And it works in the browser along with CSS and JavaScript. Use all three to make a kickass Website.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/dog.jpg" alt="dog" class="img-thumbnail">
+      </div>
+    </div>
+
+    <hr class="divider">
+
+      <div class="row">
+        <div class="col-md-5">
+          <img src="images/chrome.jpg" alt="chrome">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">What's Included with HTML?</h2>
+          <p class="lead">Tags to make words <strong>bold</strong>. <em>Like a boss</em> And tons of CSS properties to style your page:
+          <code>.nija { color: black; visibility: none; }</code></p>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="companies">
+        <div class="text-center">
+          <h3 class="text-muted">HTML is Trusted By 100,000+ Companies Including:</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/company1.svg" alt="bloomberg">
+          </div>
+          <div class="col-md-3">
+            <img src="images/company2.svg" alt="google">
+          </div>
+          <div class="col-md-3">
+            <img src="images/company3.svg" alt="y-combinator">
+          </div>
+          <div class="col-md-3">
+            <img src="images/company4.svg" alt="singularity-university">
+          </div>
+        </div>
+      </div><!-- .trusted-companies -->
+
+   </div><!-- /.container -->
+
+   <!-- Footer -->
+   <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Made with <a href="http://www.onemonthhtml.com" target="_blank">One Month HTML</a></p>
+    </footer>
+
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
